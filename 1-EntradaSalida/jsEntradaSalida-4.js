@@ -4,6 +4,15 @@
 */
 function Mostrar()
 {
-	
+var nombre;
+nombre=prompt("usted se llama ");
+nombre=document.getElementById("elNombre").value=nombre;
+
+
+
+
+
 }
+
+
 

@@ -8,8 +8,14 @@ function MostrarDescuento()
     var descuento;
     var resultado;
 
-    importe=parseInt(document.getElementById("importe").value);
-    descuento= importe * 0.25;
+    importe=document.getElementById("importe").value;
+    
+    importe=parseInt(importe);
+    descuento= importe * 0.25; 
     resultado= importe - descuento;
+
     document.getElementById("resultado").value=resultado.toFixed(2);
+
+
+    
 }
