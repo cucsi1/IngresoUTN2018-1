@@ -1,9 +1,25 @@
 function Mostrar()
 {
 //tomo la hora 
-var laHora = document.getElementById('hora').value;
+var hora = document.getElementById("hora").value;
+hora = parseInt(hora);
 
-//alert (laHora);
+
+switch ( hora){
+    case 7:
+    case 8:
+    case 9:
+    case 10:
+    case 11:
+    alert(" es de mañana");
+    break;
+
+    
+}
+
+
+
+
 	
 	
 

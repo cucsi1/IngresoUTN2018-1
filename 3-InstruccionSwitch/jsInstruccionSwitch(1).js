@@ -1,23 +1,33 @@
 function Mostrar()
-{
+{  
 //tomo el mes
-var mesDelAño = document.getElementById('mes').value;
+var mesDelAño= document.getElementById("mes").value;
+
 
 switch (mesDelAño){ 
-case "Enero":
-    alert("que comiences bien el año !!!");
+    
+    case "Enero":
+    alert( "que comiences bien el año " );
+    break; 
+    
+    case "Marzo":
+    alert("a clases ");
     break;
-case "Marzo":
-    alert(" a clases!!! ");
-    break;
-case "Julio":
-    alert("se vienen las vcaciones");
-    break;
-case "Diciembre":
-    alert ("felices fiestas !!!");
+   
+    case "Julio":
+    alert("se vienen las vacaciones ");
     break;
 
+    case "Diciembre":
+    alert("felices fiestas ");
+    break;
+    default:
+    alert(" este mes no existe");
+    
 }
 
 
-}//FIN DE LA FUNCIÓN
+
+}
+
+//FIN DE LA FUNCIÓN

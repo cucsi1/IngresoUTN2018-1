@@ -4,15 +4,22 @@ function Mostrar()
 var mesDelAño = document.getElementById('mes').value;
 
 switch ( mesDelAño){
-case "Julio":
-    alert (" abrigate que hace frio");
-    break
-case "Enero":
-    alert ("falta para el invierno ")
+    case "Abril":
+    alert("falta para el invierno");
     break;
-case "Agosto":
-    alert("ahora calor!!!");
+    
+    case "Julio":
+    alert("falta para el invierno");
     break;
+    
+    case "Agosto":
+    alert("abrigate que hace frio");
+    break;
+
+    case "Enero":
+    alert("ya pasamos el invierno, ahora CALOR!!!");
+    break;
+
 }
 
 
