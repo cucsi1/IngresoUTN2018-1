@@ -1,8 +1,11 @@
 function Mostrar()
-{ 
-var numero= 10;
-while(numero >=1){
-	console.log(numero);
-	numero= numero - 1;
-}
-}//FIN DE LA FUNCIÓN
+{
+	var numero1;
+	numero1= 10
+
+	while ( numero1 >=1){
+		console.log("DESCENDENTE : " + numero1);
+		numero1 --;
+
+	}
+}//FIN DE LA FUNCIÓNS

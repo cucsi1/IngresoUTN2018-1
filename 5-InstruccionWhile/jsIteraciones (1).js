@@ -1,13 +1,12 @@
 function Mostrar()
 {
-	
-	var numero =1;
-	
-	while(numero <=10){
-		console.log (numero);
-		numero++;
+	var numero1;
+	numero1 = 1;
+
+	while ( numero1 <=10){
+		console.log(" ASCENDENTE : " + numero1);
+		numero1 ++;
 	}
-	
 
 
 
